@@ -6,6 +6,7 @@ public class MovementHandler : MonoBehaviour
 {
     private PlayerController playerControllerInstance;
     private Vector3 targetPosition;
+    private Vector2 lookDirection = new Vector2(1, 0);
 
     private void Start()
     {
@@ -17,10 +18,20 @@ public class MovementHandler : MonoBehaviour
     {
         targetPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         targetPosition.z = transform.position.z;
+        lookDirection = targetPosition - transform.position;
+        lookDirection.Normalize();
+        playerControllerInstance.SetLookDirection(lookDirection.x, lookDirection.y);
+        playerControllerInstance.SetWalinkg();
+        Debug.Log("Target Position: " + targetPosition);
+
     }
 
     private void FixedUpdate()
     {
         transform.position = Vector3.MoveTowards(playerControllerInstance.rb.transform.position, targetPosition, playerControllerInstance.playerData.speed * Time.deltaTime);
+        if (transform.position == targetPosition)
+        {
+            playerControllerInstance.SetIdle();
+        }
     }
 }

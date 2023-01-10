@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
     [HideInInspector] public Rigidbody2D rb;
     public CharacterData playerData;
     private MovementHandler movementHandler;
-    private InputManager inputManager;
+    private PlayerAnimationHandler animationHandler;
 
     #region Singleton
 
@@ -24,12 +24,27 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         movementHandler = GetComponent<MovementHandler>();
-        inputManager = GetComponent<InputManager>();
+        animationHandler = GetComponent<PlayerAnimationHandler>();
     }
 
     public void moveCharacter()
     {
         movementHandler.ChangeTarget();
+    }
+
+    public void SetLookDirection(float lookX, float lookY)
+    {
+        animationHandler.SetLookDirection(lookX, lookY);
+    }
+
+    public void SetIdle()
+    {
+        animationHandler.SetAnimationIdle();
+    }
+
+    public void SetWalinkg()
+    {
+        animationHandler.SetAnimationWalking();
     }
 
 }

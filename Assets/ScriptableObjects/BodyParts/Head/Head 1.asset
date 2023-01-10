@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf537eed42df42444aaa45747318c535, type: 3}
+  m_Name: Head 1
+  m_EditorClassIdentifier: 
+  bodyPart: Head
+  clothesName: Hair 1
+  id: 1
+  isSellable: 0
+  isBuyable: 1
+  isObtained: 0
+  price: 12
+  icon: {fileID: 0}
+  walkingAnimations:
+  - {fileID: 7400000, guid: 4f5b16d8dd3bf6c49ba36f0c9128d91e, type: 2}
+  - {fileID: 7400000, guid: 023bb3c75fd49424f8a0e1bb42fb5939, type: 2}
+  - {fileID: 7400000, guid: 2f68ca4d9aabae64bb7fb2525950aad8, type: 2}
+  - {fileID: 7400000, guid: 8ea1ca9b2b077c940978b87595a39e78, type: 2}
+  idleAnimations:
+  - {fileID: 7400000, guid: 0d1be0c19afd9b64da1d001c540352cd, type: 2}
+  - {fileID: 7400000, guid: 49417fffc6763a64dbe80e716e5e8b5c, type: 2}
+  - {fileID: 7400000, guid: efe7b9407e0a4be41aa8e57be0ae1c57, type: 2}
+  - {fileID: 7400000, guid: 7603c6f38ad493543b8a5419c641f343, type: 2}

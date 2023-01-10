@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf537eed42df42444aaa45747318c535, type: 3}
+  m_Name: Body 1
+  m_EditorClassIdentifier: 
+  bodyPart: Body
+  clothesName: Outfit 1
+  id: 1
+  isSellable: 0
+  isBuyable: 1
+  isObtained: 0
+  price: 10
+  icon: {fileID: 0}
+  walkingAnimations:
+  - {fileID: 7400000, guid: 9e86096543229c349a18f861f6f0ede9, type: 2}
+  - {fileID: 7400000, guid: 744eb5cad2507564eae835435496ca9d, type: 2}
+  - {fileID: 7400000, guid: 96b021a622f460a49929bcd940fef33e, type: 2}
+  - {fileID: 7400000, guid: 20f92a2d37473e54782b9decd920e8a0, type: 2}
+  idleAnimations:
+  - {fileID: 7400000, guid: 8f28abec867307e4c9613cbf2086890c, type: 2}
+  - {fileID: 7400000, guid: faed9ab12eb1ea14f9e92453ad140387, type: 2}
+  - {fileID: 7400000, guid: 216de0392450cce449f34f54c3476d94, type: 2}
+  - {fileID: 7400000, guid: c444891bfec377a46b3c2bb77cc3f05b, type: 2}
