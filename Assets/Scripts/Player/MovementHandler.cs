@@ -19,7 +19,7 @@ public class MovementHandler : MonoBehaviour
         targetPosition.z = transform.position.z;
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         transform.position = Vector3.MoveTowards(playerControllerInstance.rb.transform.position, targetPosition, playerControllerInstance.playerData.speed * Time.deltaTime);
     }
