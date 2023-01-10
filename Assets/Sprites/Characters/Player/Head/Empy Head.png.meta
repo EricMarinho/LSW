@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 09cd6e1d80b01fd4680f6bbcf2725007
+guid: 0ac57320b8944344091e7ad1ad88c59c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -129,181 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Character_0
+      name: Empy Head_0
       rect:
         serializedVersion: 2
-        x: 24
-        y: 1845
-        width: 353
-        height: 453
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 85733a2d0892f004591d176ac43c3259
-      internalID: -634726299
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Character_1
-      rect:
-        serializedVersion: 2
-        x: 449
-        y: 1845
-        width: 329
-        height: 429
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 83091efa82315604c9382ddf8eda1293
-      internalID: -2105879212
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Character_2
-      rect:
-        serializedVersion: 2
-        x: 823
-        y: 1845
-        width: 354
-        height: 453
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 29f9747006059ad46b119ea920654d6f
-      internalID: 157805478
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Character_3
-      rect:
-        serializedVersion: 2
-        x: 1224
-        y: 1845
-        width: 328
-        height: 429
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3de07101f90d7304398509973e9fd472
-      internalID: -1419328708
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Character_4
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 1245
-        width: 353
-        height: 453
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 758129efb33f18f4d81a09d1b1f52ee8
-      internalID: 743961058
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Character_5
-      rect:
-        serializedVersion: 2
-        x: 449
-        y: 1245
-        width: 329
-        height: 428
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 535d4ce5c2a5a584783648723093ff5d
-      internalID: 835155045
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Character_6
-      rect:
-        serializedVersion: 2
-        x: 823
-        y: 1245
-        width: 354
-        height: 453
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e262221f8d30d5146976c78e248f6b71
-      internalID: 1914677602
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Character_7
-      rect:
-        serializedVersion: 2
-        x: 1224
-        y: 1245
-        width: 328
-        height: 428
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a05f8588503d72543a3f60bcd6794e89
-      internalID: -1597036299
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Character_8
-      rect:
-        serializedVersion: 2
-        x: 49
-        y: 670
+        x: 56
+        y: 1994
         width: 304
-        height: 428
+        height: 278
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -311,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6604b66f83ad824a8b684d675cf01b6
-      internalID: 2017033507
+      spriteID: 332f952fc87b08542b63fe7c69e93b2f
+      internalID: -1487044321
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_9
+      name: Empy Head_1
       rect:
         serializedVersion: 2
-        x: 449
-        y: 670
-        width: 303
-        height: 404
+        x: 455
+        y: 1969
+        width: 305
+        height: 279
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -332,41 +164,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8005e55f5ea888547af224f33f5df73a
-      internalID: -1927031483
+      spriteID: 801c2ece945275f499e73bfc1d48a882
+      internalID: -1653792523
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_10
+      name: Empy Head_2
       rect:
         serializedVersion: 2
-        x: 849
-        y: 670
-        width: 303
-        height: 428
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c532395c4aee6c640a03de9063fdebab
-      internalID: 354478622
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Character_11
-      rect:
-        serializedVersion: 2
-        x: 1248
-        y: 670
+        x: 856
+        y: 1995
         width: 304
-        height: 404
+        height: 279
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -374,41 +185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a79c55dfa7c34c4fb64d30a59bbe023
-      internalID: -1161153951
+      spriteID: 515aac7f497178b4385a2a2dca6a379d
+      internalID: -366984970
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_12
+      name: Empy Head_3
       rect:
         serializedVersion: 2
-        x: 49
-        y: 70
-        width: 304
-        height: 403
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4d43c236071bf824e8b45c8ad53b3e94
-      internalID: 1931695615
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Character_13
-      rect:
-        serializedVersion: 2
-        x: 449
-        y: 70
+        x: 1256
+        y: 1968
         width: 303
-        height: 428
+        height: 280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -416,41 +206,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80cb543e2b2a4894ab2cc2dafe8fe147
-      internalID: -693818777
+      spriteID: 9aa700566f399dd43bfa52474aa9dc2b
+      internalID: -1856033408
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_14
+      name: Empy Head_4
       rect:
         serializedVersion: 2
-        x: 849
-        y: 70
-        width: 303
-        height: 403
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bf3e2e177e4a2764d9c52dc208c5adec
-      internalID: -1123794399
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Character_15
-      rect:
-        serializedVersion: 2
-        x: 1248
-        y: 70
+        x: 56
+        y: 1393
         width: 304
-        height: 428
+        height: 280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -458,8 +227,239 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2231286d10bc7114497492b7dacc4caf
-      internalID: 1254424386
+      spriteID: 6de3043dcc6f1054caf5c69f70067b2e
+      internalID: -1626447479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Empy Head_5
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1368
+        width: 305
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f43de56df0c403d4aac8385cff21cbc2
+      internalID: 594072257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Empy Head_6
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1393
+        width: 303
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d022963f11291e24eba127a1f549c9f6
+      internalID: -1541782927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Empy Head_7
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 1368
+        width: 303
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73769a93dd4cbe14aad3ab6b6ecd81aa
+      internalID: 1787490626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Empy Head_8
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 793
+        width: 304
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f776d3bd5625d6e4da4e4b52a81fee2d
+      internalID: -1723543139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Empy Head_9
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 768
+        width: 306
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec2da3d7ea10434b9e9009a1346d507
+      internalID: -1244637331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Empy Head_10
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 793
+        width: 303
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6b9c5881819ef4087e508ef0a40b17
+      internalID: 1480372258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Empy Head_11
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 769
+        width: 303
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a94085d571a527428d0acd56b47bac7
+      internalID: 93334485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Empy Head_12
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 169
+        width: 304
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75321b8f8a9f28a4abc9505d4773469a
+      internalID: -1285714867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Empy Head_13
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 194
+        width: 305
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce1ea67c38f83641949a826fbc9c56d
+      internalID: 667823494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Empy Head_14
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 169
+        width: 303
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f63f5eddf026f34695e1d24e459407d
+      internalID: 1445679223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Empy Head_15
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 194
+        width: 303
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a05e2b4197539cd4cae705d7c276da8d
+      internalID: 523099355
       vertices: []
       indices: 
       edges: []
@@ -475,22 +475,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Character_5: 835155045
-      Character_15: 1254424386
-      Character_7: -1597036299
-      Character_10: 354478622
-      Character_1: -2105879212
-      Character_6: 1914677602
-      Character_12: 1931695615
-      Character_8: 2017033507
-      Character_3: -1419328708
-      Character_14: -1123794399
-      Character_13: -693818777
-      Character_0: -634726299
-      Character_9: -1927031483
-      Character_2: 157805478
-      Character_11: -1161153951
-      Character_4: 743961058
+      Empy Head_10: 1480372258
+      Empy Head_7: 1787490626
+      Empy Head_1: -1653792523
+      Empy Head_9: -1244637331
+      Empy Head_6: -1541782927
+      Empy Head_3: -1856033408
+      Empy Head_15: 523099355
+      Empy Head_13: 667823494
+      Empy Head_0: -1487044321
+      Empy Head_12: -1285714867
+      Empy Head_2: -366984970
+      Empy Head_4: -1626447479
+      Empy Head_11: 93334485
+      Empy Head_14: 1445679223
+      Empy Head_8: -1723543139
+      Empy Head_5: 594072257
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

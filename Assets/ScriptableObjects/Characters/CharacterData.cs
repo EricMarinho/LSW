@@ -5,8 +5,7 @@ public class CharacterData : ScriptableObject
 {
 
     public float speed;
-    public Sprite headClothes;
-    public Sprite upperClothes;
-    public Sprite lowerClothes;
-
+    public GameObject headClothes;
+    public GameObject upperClothes;
+    public GameObject lowerClothes;
 }
