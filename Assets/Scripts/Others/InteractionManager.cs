@@ -3,12 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-
-public class ShopManager : MonoBehaviour, IPointerClickHandler
+public class InteractionManager : MonoBehaviour, IPointerClickHandler
 {
 
     private PlayerController playerControllerInstance;
-    public GameObject shopPanel;
+    public GameObject interfacePanel;
 
     private void Start()
     {
@@ -20,7 +19,7 @@ public class ShopManager : MonoBehaviour, IPointerClickHandler
         if (playerControllerInstance.isMovable)
         {
             playerControllerInstance.moveCharacter();
-            shopPanel.SetActive(true);
+            interfacePanel.SetActive(true);
             playerControllerInstance.isMovable = false;
         }
     }

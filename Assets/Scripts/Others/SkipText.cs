@@ -6,6 +6,7 @@ public class SkipText : MonoBehaviour
 {
 
     public TMP_Text text;
+    public GameObject exitButton;
 
     public void ChangeText()
     {
@@ -17,6 +18,7 @@ public class SkipText : MonoBehaviour
     {
         yield return new WaitForSeconds(3);
         text.text = "I'm a shopkeeper, I sell stuff, you buy stuff, we're all happy.";
+        exitButton.SetActive(true);
     }
 
 }
