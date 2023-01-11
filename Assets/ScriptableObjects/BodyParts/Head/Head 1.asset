@@ -19,7 +19,7 @@ MonoBehaviour:
   isBuyable: 1
   isObtained: 0
   price: 12
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 3de28815bcc91e54fb4936415a158dbf, type: 3}
   walkingAnimations:
   - {fileID: 7400000, guid: 4f5b16d8dd3bf6c49ba36f0c9128d91e, type: 2}
   - {fileID: 7400000, guid: 023bb3c75fd49424f8a0e1bb42fb5939, type: 2}
