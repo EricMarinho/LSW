@@ -1,16 +1,45 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class MoneyManager : MonoBehaviour
 {
-    void Start()
-    {
 
+    #region Singleton
+
+    public static MoneyManager instance { get; private set; }
+    private void Awake()
+    {
+        instance = this;
     }
 
-    void Update()
-    {
+    #endregion
 
+    public TMP_Text moneyText;
+    private PlayerController playerControllerInstance;
+
+    private void Start()
+    {
+        playerControllerInstance = PlayerController.instance;
+        moneyText.text = playerControllerInstance.playerData.currentMoney.ToString();
     }
+
+    public void AddMoney(float amount)
+    {
+        playerControllerInstance.playerData.currentMoney += amount;
+        moneyText.text = playerControllerInstance.playerData.currentMoney.ToString(); ;
+    }
+
+    public void RemoveMoney(float amount)
+    {
+        playerControllerInstance.playerData.currentMoney -= amount;
+        moneyText.text = playerControllerInstance.playerData.currentMoney.ToString(); ;
+    }
+
+    public bool CanAfford(float amount)
+    {
+        return playerControllerInstance.playerData.currentMoney >= amount;
+    }
+
 }

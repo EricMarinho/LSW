@@ -271,7 +271,7 @@ GameObject:
   - component: {fileID: 4906739}
   - component: {fileID: 4906738}
   m_Layer: 5
-  m_Name: FittingRoomMenu
+  m_Name: Fitting Room Menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -373,7 +373,7 @@ GameObject:
   - component: {fileID: 19935264}
   - component: {fileID: 19935263}
   m_Layer: 5
-  m_Name: ShopkeeperMenu
+  m_Name: Shop Keeper Menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -745,7 +745,7 @@ GameObject:
   - component: {fileID: 179792182}
   - component: {fileID: 179792181}
   m_Layer: 0
-  m_Name: DoorTilemap
+  m_Name: Door Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1046,6 +1046,7 @@ GameObject:
   - component: {fileID: 212707877}
   - component: {fileID: 212707881}
   - component: {fileID: 212707882}
+  - component: {fileID: 212707883}
   m_Layer: 0
   m_Name: Shopkeeper
   m_TagString: Untagged
@@ -1179,6 +1180,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.17, y: 1.5033333}
   m_EdgeRadius: 0
+--- !u!114 &212707883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212707876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6eae6f099c8e324f9393e855c019099, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 1942877929}
+  exitButton: {fileID: 1258769778}
 --- !u!1 &218623052
 GameObject:
   m_ObjectHideFlags: 0
@@ -1816,7 +1831,7 @@ GameObject:
   - component: {fileID: 819727677}
   - component: {fileID: 819727676}
   m_Layer: 3
-  m_Name: CameraConfiner
+  m_Name: Camera Confiner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1865,6 +1880,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &826777392
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 826777394}
+  - component: {fileID: 826777393}
+  m_Layer: 0
+  m_Name: MoneyHandler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &826777393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826777392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ac6b229be990894a87130f22dd7fb85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moneyText: {fileID: 1453686044}
+--- !u!4 &826777394
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826777392}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 689.38446, y: 630.65924, z: 5.493547}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &951568556
 GameObject:
@@ -1980,7 +2040,7 @@ GameObject:
   - component: {fileID: 993432122}
   - component: {fileID: 993432121}
   m_Layer: 0
-  m_Name: FloorTilemap
+  m_Name: Floor Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5464,7 +5524,7 @@ GameObject:
   - component: {fileID: 1164248761}
   - component: {fileID: 1164248760}
   m_Layer: 0
-  m_Name: FurnitureTilemap
+  m_Name: Furniture Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6378,7 +6438,7 @@ GameObject:
   - component: {fileID: 1314771094}
   - component: {fileID: 1314771093}
   m_Layer: 5
-  m_Name: MoneyBox
+  m_Name: Money Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6455,7 +6515,7 @@ GameObject:
   - component: {fileID: 1383082469}
   - component: {fileID: 1383082468}
   m_Layer: 0
-  m_Name: FittingRoomWallBorderTilemap
+  m_Name: Fitting Room WallBorder Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6785,7 +6845,7 @@ GameObject:
   - component: {fileID: 1429408154}
   - component: {fileID: 1429408153}
   m_Layer: 0
-  m_Name: FittingRoomTilemap
+  m_Name: Fitting Room Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7464,7 +7524,6 @@ GameObject:
   - component: {fileID: 1538780443}
   - component: {fileID: 1538780445}
   - component: {fileID: 1538780444}
-  - component: {fileID: 1538780446}
   m_Layer: 5
   m_Name: Dialogue Box BG
   m_TagString: Untagged
@@ -7532,20 +7591,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1538780442}
   m_CullTransparentMesh: 1
---- !u!114 &1538780446
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1538780442}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6eae6f099c8e324f9393e855c019099, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  text: {fileID: 1942877929}
-  exitButton: {fileID: 1258769778}
 --- !u!1 &1574760017
 GameObject:
   m_ObjectHideFlags: 0
@@ -7828,7 +7873,7 @@ GameObject:
   - component: {fileID: 1633010139}
   - component: {fileID: 1633010138}
   m_Layer: 5
-  m_Name: WalletIcon
+  m_Name: Wallet Icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7976,8 +8021,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1538780446}
-        m_TargetAssemblyTypeName: SkipText, Assembly-CSharp
+      - m_Target: {fileID: 212707883}
+        m_TargetAssemblyTypeName: ShopkeeperDialogueManager, Assembly-CSharp
         m_MethodName: ChangeText
         m_Mode: 1
         m_Arguments:
@@ -8236,7 +8281,7 @@ GameObject:
   - component: {fileID: 2097403514}
   - component: {fileID: 2097403516}
   m_Layer: 0
-  m_Name: WallTilemap
+  m_Name: Wall Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: PlayerData
   m_EditorClassIdentifier: 
   speed: 4
+  currentMoney: 0
   headPart: {fileID: 11400000, guid: bf65b32292d297f49bc84556a66261e4, type: 2}
   bodyPart: {fileID: 11400000, guid: 84a850a84ba40fa4faccc973a790444f, type: 2}

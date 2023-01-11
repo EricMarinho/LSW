@@ -5,6 +5,7 @@ public class CharacterData : ScriptableObject
 {
 
     public float speed;
+    public float currentMoney;
     public ScriptableObject headPart;
     public ScriptableObject bodyPart;
 }

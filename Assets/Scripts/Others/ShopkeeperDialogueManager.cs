@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine;
 using TMPro;
 
-public class SkipText : MonoBehaviour
+public class ShopkeeperDialogueManager : MonoBehaviour
 {
 
     public TMP_Text text;
@@ -11,6 +11,7 @@ public class SkipText : MonoBehaviour
     public void ChangeText()
     {
         text.text = "You look like you need some coins, here buddy!";
+        MoneyManager.instance.AddMoney(20);
         StartCoroutine(WaitForNextText());
     }
 
