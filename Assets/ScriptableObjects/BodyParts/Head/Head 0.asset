@@ -16,10 +16,10 @@ MonoBehaviour:
   clothesName: Bald
   id: 0
   isSellable: 0
-  isBuyable: 1
-  isObtained: 0
+  isBuyable: 0
+  isObtained: 1
   price: 0
-  icon: {fileID: 21300000, guid: 0525793900d728a42936791a8a6de63b, type: 3}
+  icon: {fileID: 21300000, guid: 0c0c441ae337ce24caae03e9ff368b89, type: 3}
   walkingAnimations:
   - {fileID: 7400000, guid: 17d4210dad4d26e429cab7a6e7c7273e, type: 2}
   - {fileID: 7400000, guid: a45a38fc4fefc5c4ab36c0b02d3111de, type: 2}

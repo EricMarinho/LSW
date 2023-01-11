@@ -9,9 +9,14 @@ public class ListSellableItems : MonoBehaviour
     private PlayerController playerControllerInstance;
     [SerializeField] private string bodyPartType;
     [SerializeField] private GameObject bodyPartPrefab;
-    void OnEnable()
+
+    private void Awake()
     {
         playerControllerInstance = PlayerController.instance;
+    }
+
+    void OnEnable()
+    {
         foreach (BodyPart bodyPart in bodyPartType == "Body" ? playerControllerInstance.playerData.bodyParts : playerControllerInstance.playerData.headParts)
         {
             if (!bodyPart.isSellable) continue;
