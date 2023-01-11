@@ -38,7 +38,14 @@ public class ListSellableItems : MonoBehaviour
                 }
             }
         }
+    }
 
+    private void OnDisable()
+    {
+        foreach (Transform child in transform)
+        {
+            Destroy(child.gameObject);
+        }
     }
 
 }
