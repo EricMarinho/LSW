@@ -12,31 +12,14 @@ public class ListSellableItems : MonoBehaviour
     void OnEnable()
     {
         playerControllerInstance = PlayerController.instance;
-        if (bodyPartType == "Body")
+        foreach (BodyPart bodyPart in bodyPartType == "Body" ? playerControllerInstance.playerData.bodyParts : playerControllerInstance.playerData.headParts)
         {
-            foreach (BodyPart bodyPart in playerControllerInstance.playerData.bodyParts)
-            {
-                if (bodyPart.isSellable)
-                {
-                    GameObject instantiatedItem = Instantiate(bodyPartPrefab, transform);
-                    instantiatedItem.GetComponent<SellingItemManager>().item = bodyPart;
-                    instantiatedItem.GetComponent<Image>().sprite = bodyPart.icon;
-                    instantiatedItem.GetComponentInChildren<TMP_Text>().text = bodyPart.price.ToString() + " coins";
-                }
-            }
-        }
-        else
-        {
-            foreach (BodyPart bodyPart in playerControllerInstance.playerData.headParts)
-            {
-                if (bodyPart.isSellable)
-                {
-                    GameObject instantiatedItem = Instantiate(bodyPartPrefab, transform);
-                    instantiatedItem.GetComponent<SellingItemManager>().item = bodyPart;
-                    instantiatedItem.GetComponent<Image>().sprite = bodyPart.icon;
-                    instantiatedItem.GetComponentInChildren<TMP_Text>().text = bodyPart.price.ToString() + " coins";
-                }
-            }
+            if (!bodyPart.isSellable) continue;
+
+            GameObject instantiatedItem = Instantiate(bodyPartPrefab, transform);
+            instantiatedItem.GetComponent<SellingItemManager>().item = bodyPart;
+            instantiatedItem.GetComponent<Image>().sprite = bodyPart.icon;
+            instantiatedItem.GetComponentInChildren<TMP_Text>().text = bodyPart.price.ToString() + " coins";
         }
     }
 

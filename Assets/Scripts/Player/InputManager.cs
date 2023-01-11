@@ -16,10 +16,8 @@ public class InputManager : MonoBehaviour
     {
         if (Input.GetMouseButton(1))
         {
-            if (playerControllerInstance.isMovable)
-            {
-                playerControllerInstance.moveCharacter();
-            }
+            if (!playerControllerInstance.isMovable) return;
+            playerControllerInstance.moveCharacter();
         }
     }
 

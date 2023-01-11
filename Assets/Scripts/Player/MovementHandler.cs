@@ -27,9 +27,7 @@ public class MovementHandler : MonoBehaviour
     private void FixedUpdate()
     {
         transform.position = Vector3.MoveTowards(playerControllerInstance.rb.transform.position, targetPosition, playerControllerInstance.playerData.speed * Time.deltaTime);
-        if (transform.position == targetPosition)
-        {
-            playerControllerInstance.SetIdle();
-        }
+        if (transform.position != targetPosition) return;
+        playerControllerInstance.SetIdle();
     }
 }

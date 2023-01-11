@@ -19,15 +19,7 @@ public class SellingItemManager : MonoBehaviour
         item.isObtained = false;
         item.isSellable = false;
         MoneyManager.instance.AddMoney(item.price);
-
-        if (item.bodyPart == "Head")
-        {
-            playerControllerInstance.playerData.headParts.Remove(item);
-        }
-        else if (item.bodyPart == "Body")
-        {
-            playerControllerInstance.playerData.bodyParts.Remove(item);
-        }
+        (item.bodyPart == "Head" ? playerControllerInstance.playerData.headParts : playerControllerInstance.playerData.bodyParts).Remove(item);
 
         Object.Destroy(gameObject);
     }

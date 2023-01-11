@@ -40,14 +40,7 @@ public class BuyingItemManager : MonoBehaviour
             moneyManagerInstance.RemoveMoney(item.price);
             priceText.text = "Sold!";
             priceText.color = Color.red;
-            if (item.bodyPart == "Head")
-            {
-                playerControllerInstance.playerData.headParts.Add(item);
-            }
-            else if (item.bodyPart == "Body")
-            {
-                playerControllerInstance.playerData.bodyParts.Add(item);
-            }
+            (item.bodyPart == "Head" ? playerControllerInstance.playerData.headParts : playerControllerInstance.playerData.bodyParts).Add(item);
         }
     }
 

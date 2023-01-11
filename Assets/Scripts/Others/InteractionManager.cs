@@ -16,12 +16,11 @@ public class InteractionManager : MonoBehaviour, IPointerClickHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        if (playerControllerInstance.isMovable)
-        {
-            playerControllerInstance.moveCharacter();
-            interfacePanel.SetActive(true);
-            playerControllerInstance.isMovable = false;
-        }
+        if (!playerControllerInstance.isMovable) return;
+
+        playerControllerInstance.moveCharacter();
+        interfacePanel.SetActive(true);
+        playerControllerInstance.isMovable = false;
     }
 
     public void ExitShop()
