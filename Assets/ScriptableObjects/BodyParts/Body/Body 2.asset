@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Body 2
   m_EditorClassIdentifier: 
   bodyPart: Body
-  clothesName: Outfit 1
+  clothesName: Outfit 2
   id: 2
   isSellable: 0
   isBuyable: 1
@@ -21,12 +21,12 @@ MonoBehaviour:
   price: 8
   icon: {fileID: 0}
   walkingAnimations:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 7400000, guid: 17348644f7737af4fb8fef2d187a1729, type: 2}
+  - {fileID: 7400000, guid: 2d9094cf4699b3846b20161d5068b48a, type: 2}
+  - {fileID: 7400000, guid: a787359edaa30194999f0e554e42bcf7, type: 2}
+  - {fileID: 7400000, guid: 183bd52aff60b6c46aa4eed072383b86, type: 2}
   idleAnimations:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 7400000, guid: a453a5adcd0b6d44caf772df3e7899b6, type: 2}
+  - {fileID: 7400000, guid: 4e66c477227e6e94ab8bfbbdf90bbd90, type: 2}
+  - {fileID: 7400000, guid: 77740667d48b0f6438a29c85dce03b75, type: 2}
+  - {fileID: 7400000, guid: 686ce70aa90aaba4d849d45045487528, type: 2}
