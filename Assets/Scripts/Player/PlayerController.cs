@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     public CharacterData playerData;
     private MovementHandler movementHandler;
     private PlayerAnimationHandler animationHandler;
+    public bool isMovable { get; set; } = true;
 
     #region Singleton
 

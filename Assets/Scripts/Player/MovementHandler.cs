@@ -22,8 +22,6 @@ public class MovementHandler : MonoBehaviour
         lookDirection.Normalize();
         playerControllerInstance.SetLookDirection(lookDirection.x, lookDirection.y);
         playerControllerInstance.SetWalinkg();
-        Debug.Log("Target Position: " + targetPosition);
-
     }
 
     private void FixedUpdate()
