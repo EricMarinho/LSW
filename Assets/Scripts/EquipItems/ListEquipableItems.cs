@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class ListEquipableItems : MonoBehaviour
 {
@@ -23,6 +24,11 @@ public class ListEquipableItems : MonoBehaviour
             GameObject instantiatedItem = Instantiate(bodyPartPrefab, transform);
             instantiatedItem.GetComponent<EquipItem>().item = bodyPart;
             instantiatedItem.GetComponent<Image>().sprite = bodyPart.icon;
+
+            if (!bodyPart.isEquiped) continue;
+
+            instantiatedItem.GetComponentInChildren<TMP_Text>().text = "Equipped";
+
         }
     }
 

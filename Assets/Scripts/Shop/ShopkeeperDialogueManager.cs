@@ -18,7 +18,7 @@ public class ShopkeeperDialogueManager : MonoBehaviour
     IEnumerator WaitForNextText()
     {
         yield return new WaitForSeconds(3);
-        text.text = "I'm a shopkeeper. I sell stuff, you buy stuff, we're all happy. You can equip your clothes in the fitting room on the left corner.";
+        text.text = "I'm a shopkeeper. I sell stuff, you buy stuff, we're all happy. You can equip your clothes in the fitting room on the top-left corner.";
         exitButton.SetActive(true);
     }
 

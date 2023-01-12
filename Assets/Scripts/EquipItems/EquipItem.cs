@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class EquipItem : MonoBehaviour
 {
@@ -30,6 +31,11 @@ public class EquipItem : MonoBehaviour
             bodyPart.isEquiped = false;
         }
 
+        foreach (Transform child in transform.parent)
+        {
+            child.GetComponentInChildren<TMP_Text>().text = "";
+        }
+        gameObject.GetComponentInChildren<TMP_Text>().text = "Equipped";
         item.isEquiped = true;
         playerControllerInstance.UpdatePlayer();
 
