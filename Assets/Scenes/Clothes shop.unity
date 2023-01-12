@@ -13501,6 +13501,50 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1526687650, guid: 0df0f4fb336a53a41b8b34110aa39865, type: 3}
+      propertyPath: bodyPartTypes.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1526687650, guid: 0df0f4fb336a53a41b8b34110aa39865, type: 3}
+      propertyPath: characterStates.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1526687650, guid: 0df0f4fb336a53a41b8b34110aa39865, type: 3}
+      propertyPath: bodyPartTypes.Array.data[0]
+      value: Head
+      objectReference: {fileID: 0}
+    - target: {fileID: 1526687650, guid: 0df0f4fb336a53a41b8b34110aa39865, type: 3}
+      propertyPath: bodyPartTypes.Array.data[1]
+      value: Body
+      objectReference: {fileID: 0}
+    - target: {fileID: 1526687650, guid: 0df0f4fb336a53a41b8b34110aa39865, type: 3}
+      propertyPath: characterStates.Array.data[0]
+      value: idle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1526687650, guid: 0df0f4fb336a53a41b8b34110aa39865, type: 3}
+      propertyPath: characterStates.Array.data[1]
+      value: walking
+      objectReference: {fileID: 0}
+    - target: {fileID: 1526687650, guid: 0df0f4fb336a53a41b8b34110aa39865, type: 3}
+      propertyPath: characterDirections.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1526687650, guid: 0df0f4fb336a53a41b8b34110aa39865, type: 3}
+      propertyPath: characterDirections.Array.data[0]
+      value: down
+      objectReference: {fileID: 0}
+    - target: {fileID: 1526687650, guid: 0df0f4fb336a53a41b8b34110aa39865, type: 3}
+      propertyPath: characterDirections.Array.data[1]
+      value: left
+      objectReference: {fileID: 0}
+    - target: {fileID: 1526687650, guid: 0df0f4fb336a53a41b8b34110aa39865, type: 3}
+      propertyPath: characterDirections.Array.data[2]
+      value: right
+      objectReference: {fileID: 0}
+    - target: {fileID: 1526687650, guid: 0df0f4fb336a53a41b8b34110aa39865, type: 3}
+      propertyPath: characterDirections.Array.data[3]
+      value: up
+      objectReference: {fileID: 0}
     - target: {fileID: 7944969397085465376, guid: 0df0f4fb336a53a41b8b34110aa39865, type: 3}
       propertyPath: m_Name
       value: Player

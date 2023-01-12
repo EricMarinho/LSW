@@ -31,8 +31,7 @@ public class EquipItem : MonoBehaviour
         }
 
         item.isEquiped = true;
-
-
+        playerControllerInstance.UpdatePlayer();
 
     }
 

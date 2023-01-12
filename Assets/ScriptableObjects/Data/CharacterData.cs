@@ -7,8 +7,8 @@ public class CharacterData : ScriptableObject
 
     public float speed;
     public float currentMoney;
-    public ScriptableObject equippedHeadPart;
-    public ScriptableObject equippedBodyPart;
+    public BodyPart equippedHeadPart;
+    public BodyPart equippedBodyPart;
     public List<BodyPart> headParts;
     public List<BodyPart> bodyParts;
 }

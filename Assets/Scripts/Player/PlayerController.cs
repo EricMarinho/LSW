@@ -48,4 +48,9 @@ public class PlayerController : MonoBehaviour
         animationHandler.SetAnimationWalking();
     }
 
+    public void UpdatePlayer()
+    {
+        animationHandler.UpdatePlayer();
+    }
+
 }
