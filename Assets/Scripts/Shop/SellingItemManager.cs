@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class SellingItemManager : MonoBehaviour
 {
@@ -10,11 +11,18 @@ public class SellingItemManager : MonoBehaviour
     private void Start()
     {
         playerControllerInstance = PlayerController.instance;
+        if (item.isEquiped)
+        {
+            GetComponentInChildren<TMP_Text>().text = "Equipped";
+            GetComponentInChildren<TMP_Text>().color = Color.red;
+        }
 
     }
 
     public void SellItem()
     {
+        if (item.isEquiped) return;
+
         item.isBuyable = true;
         item.isObtained = false;
         item.isSellable = false;

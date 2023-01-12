@@ -10,6 +10,7 @@ public class BodyPart : ScriptableObject
     public bool isSellable;
     public bool isBuyable;
     public bool isObtained;
+    public bool isEquiped;
     public float price;
     public Sprite icon;
     public List<AnimationClip> walkingAnimations;
