@@ -3563,6 +3563,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moneyText: {fileID: 1453686044}
+  moneyChangeText: {fileID: 7569908647334353388, guid: e8f7f8c1c071845478fc13e5c856f25f, type: 3}
 --- !u!4 &826777394
 Transform:
   m_ObjectHideFlags: 0
