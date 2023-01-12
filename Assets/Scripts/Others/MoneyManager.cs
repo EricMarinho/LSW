@@ -22,19 +22,19 @@ public class MoneyManager : MonoBehaviour
     private void Start()
     {
         playerControllerInstance = PlayerController.instance;
-        moneyText.text = playerControllerInstance.playerData.currentMoney.ToString();
+        moneyText.text = playerControllerInstance.playerData.currentMoney.ToString() + " coins";
     }
 
     public void AddMoney(float amount)
     {
         playerControllerInstance.playerData.currentMoney += amount;
-        moneyText.text = playerControllerInstance.playerData.currentMoney.ToString(); ;
+        moneyText.text = playerControllerInstance.playerData.currentMoney.ToString() + " coins";
     }
 
     public void RemoveMoney(float amount)
     {
         playerControllerInstance.playerData.currentMoney -= amount;
-        moneyText.text = playerControllerInstance.playerData.currentMoney.ToString(); ;
+        moneyText.text = playerControllerInstance.playerData.currentMoney.ToString() + " coins";
     }
 
     public bool CanAfford(float amount)
